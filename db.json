@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "thang"
+    },
+    {
+      "id": 2,
+      "name": "thao"
+    },
+    {
+      "id": 3,
+      "name": "Huy"
+    },
+    {
+      "id": 4,
+      "name": "hien"
+    },
+    {
+      "id": 5,
+      "name": "t"
+    },
+    {
+      "id": 6,
+      "name": "Tan",
+      "username": "quocthang1100",
+      "phone": "0912301239",
+      "password": "e10adc3949ba59abbe56e057f20f883e"
+    },
+    {
+      "name": "Map",
+      "phone": "123123213",
+      "avatar": "upload/d6c33e67ea3a7e3239453a16035e8842"
+    }
+  ]
+}

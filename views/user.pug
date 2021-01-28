@@ -1,0 +1,12 @@
+extends ../layout/common
+block content
+    a(href="/user/create")  Add User
+    form(action="/user/search", method="GET")
+        input(type="text",name="name", value = keySearch ? keySearch : '' )
+        input(type="submit",value="Search")
+    ul
+        each u in user
+            li=u.name 
+            span.ml-2 
+            a(href="/user/profile/" + u.id) View
+            img(src=u.avatar, width="50px" , height="auto")
